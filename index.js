@@ -92,7 +92,7 @@ async function getUserInput() {
 
     let items = []
     while(true) {
-       const itemId = await promptUser('Enter item ID or type "checkout:" ');
+       const itemId = await promptUser('Enter item ID or type "checkout": ');
         if (itemId === 'checkout') {
             console.log('Checking out........')
             /* console.log('Order:', items)
